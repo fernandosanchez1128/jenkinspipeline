@@ -24,7 +24,7 @@ stages{
         }
 
         stage ('Deployments'){
-            step{
+            steps{
                 echo 'deploying'
             }
         }
